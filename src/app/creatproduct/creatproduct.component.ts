@@ -39,6 +39,8 @@ export class CreatproductComponent implements OnInit {
       this.productName = data.productName;
       this.productQuantity = data.productQuantity;
       this.productPrice = data.productPrice
+      let test ="";
+      console.log(test);
 
 
     })
@@ -56,21 +58,10 @@ export class CreatproductComponent implements OnInit {
   SaveProduct() {
     console.log('Saving product...');
     console.log(this.creatproductform.value);
-
     let body = this.creatproductform.value;
-
-
     this.productName = (body.productName[0]).trim();
-
     this.productPrice = (body.productPrice[0]).trim();
-
     this.productQuantity = (body.productQuantity[0]).trim();
-
-
-
-
-
-
     this.productNameError = "";
     this.productPriceError = "";
     this.ProductQuantityError = "";
