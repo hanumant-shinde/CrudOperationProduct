@@ -1,0 +1,30 @@
+<div class="container w-50 mt-5 border shadow">
+    <form [formGroup]="signUpform"(ngSubmit)="signUp()">
+        <button type="submit" class="btn btn-primary mt-2">sign-up</button>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"formControlName="name">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile No.</label>
+            <input type="text" class="form-control" id="mobileNo" aria-describedby="emailHelp" formControlName="mobileNo">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" formControlName="Email">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" formControlName="password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">sign-up</button><br>
+        <button type="button" class="btn btn-primary mt-2"routerLink="/login">login</button>
+      </form>
+    </div>

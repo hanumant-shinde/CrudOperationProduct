@@ -1,0 +1,28 @@
+<button type="button" class="btn btn-outline-warning container w-50 mt-5 " routerLink="/listingproduct">Product List</button>
+<div class="container w-50 mt-5 border shadow">
+    <form [formGroup]="creatproductform"(ngSubmit)="SaveProduct()">
+       <h3>Create Product</h3>
+       
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"> Product Name</label>
+            <input type="text" class="form-control" id="productName" [ngModel]="[(productName)]" formControlName="productName">
+            <div *ngIf="productNameError"  style="color: red;">Product Name is required</div>
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Product Price</label>
+          <input type="text" class="form-control" id="productPrice" [ngModel]="[(productPrice)]" formControlName="productPrice">
+          <div *ngIf="productPriceError"  style="color: red;">Product Price is required</div>
+         
+    
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Product Quantity</label>
+          <input type="text" class="form-control" id="productQuantity" [ngModel]="[(productQuantity)]" formControlName="productQuantity">
+          <div *ngIf="ProductQuantityError"  style="color: red;">Product Price is required</div>
+        
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Save</button><br>
+       
+      </form>
+    </div>

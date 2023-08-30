@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "name": "Black Widow",
+      "mobileNo": "Tony Stark",
+      "email": "tony@mcu.com",
+      "password": "001-123-4567"
+    },
+    {
+      "id": "test",
+      "name": "Black Widow",
+      "email": "black-widow@mcu.com",
+      "phone": "001-123-4568"
+    },
+    {
+      "name": "Hanumant shinde",
+      "mobileNo": "9823414310",
+      "Email": "r@gmail.com",
+      "password": "test",
+      "id": "CkWeWOw"
+    },
+    {
+      "name": "Hanumant shinde",
+      "mobileNo": "9823414310",
+      "Email": "r@gmail.com",
+      "password": "test",
+      "id": "mcyJwTd"
+    },
+    {
+      "name": "tejas",
+      "mobileNo": "9836452710",
+      "Email": "tej@gmail.com",
+      "password": "welcome123",
+      "id": "Egl0Lxx"
+    },
+    {
+      "name": "tejas",
+      "mobileNo": "9836452710",
+      "Email": "tej@gmail.com",
+      "password": "welcome123",
+      "id": "BV4WwaP"
+    },
+    {
+      "name": "tejas",
+      "mobileNo": "9836452710",
+      "Email": "tej@gmail.com",
+      "password": "welcome123",
+      "id": "EbqK2nX"
+    }
+  ],
+  "product": [
+    {
+      "_id": 1,
+      "productName": "laptop",
+      "productPrice": 80000,
+      "productQuantity": 1
+    },
+    {
+      "productName": [
+        "hp"
+      ],
+      "productPrice": [
+        "5000"
+      ],
+      "productQuantity": "",
+      "_id": 2
+    },
+    {
+      "productName": "redmi1011",
+      "productPrice": "100456",
+      "productQuantity": "12",
+      "_id": 3
+    },
+    {
+      "productName": "Apple",
+      "productPrice": "100000",
+      "productQuantity": "1",
+      "_id": 5
+    },
+    {
+      "productName": "redmi10",
+      "productPrice": "10000",
+      "productQuantity": "1",
+      "_id": 10
+    },
+    {
+      "productName": [
+        "Apple100"
+      ],
+      "productPrice": [
+        "100000"
+      ],
+      "productQuantity": "10",
+      "_id": 11
+    },
+    {
+      "productName": "Appo",
+      "productPrice": "20375",
+      "productQuantity": "2",
+      "_id": 12
+    },
+    {
+      "productName": "hp",
+      "productPrice": "100000",
+      "productQuantity": "3",
+      "_id": 13
+    },
+    {
+      "productName": "rdure",
+      "productPrice": "1000",
+      "productQuantity": "3",
+      "_id": 14
+    }
+  ]
+}
